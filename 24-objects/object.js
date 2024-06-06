@@ -1,25 +1,25 @@
 'use strict';
 let n= prompt ("Ingrese el nombre");
 let species= prompt ("Ingrese la especie");
-species = (
-    Articuno = {
-        tipo1: "Hielo",
-        tipo2: "Volador",
-    } ||
-    Zapdos = {
-        tipo1: "Electrico",
-        tipo2: "Volador",
-    } ||
-    Moltres = {
-        tipo1: "Fuego",
-        tipo2: "Volador",
-    });
+
 let level= Number (prompt ("Ingrese el nivel"));
 
 let pokemon = {
     n,
-    species,
+    species: [
+        articuno = {
+            tipo1: "Hielo",
+            tipo2: "Volador",
+        }, 
+        zapdos = {
+            tipo1: "Electrico",
+            tipo2: "Volador",
+        }, 
+        moltres = {
+            tipo1: "Fuego",
+            tipo2: "Volador",
+        }],
     level,
 };
 
-alert (pokemon)
+alert (n, species, tipo1, tipo2, level)
