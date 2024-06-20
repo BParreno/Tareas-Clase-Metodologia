@@ -22,18 +22,19 @@ for (let i = 0; i < world.length; i++) {
 
 
 //Ejercicio #8
-let world=['s', 'o', 'n', 'a', 'c', 'n', 'e', 'u', 'c']
+//El array se llama "World2" unicamente para que no haya conflicto con el Ejercicio #7
+let world2=['s', 'o', 'n', 'a', 'c', 'n', 'e', 'u', 'c']
 
-for (let i = 0; i < world.length; i++) {
-    let order = (world [8] + '' + 
-        world [7] + '' + 
-        world [6] + '' + 
-        world [5] + '' + 
-        world [4] + '' + 
-        world [3] + '' + 
-        world [2] + '' + 
-        world [1] + '' + 
-        world [0])
+for (let i = 0; i < world2.length; i++) {
+    let order = (world2 [8] + '' + 
+        world2 [7] + '' + 
+        world2 [6] + '' + 
+        world2 [5] + '' + 
+        world2 [4] + '' + 
+        world2 [3] + '' + 
+        world2 [2] + '' + 
+        world2 [1] + '' + 
+        world2 [0])
     alert (order);
     break;
     };
