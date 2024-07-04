@@ -1,18 +1,11 @@
-'use strict'
+"use strict";
 
-let array = [
-    "item1",
-    "item2",
-    "item3",
-]
+let array = 'La programación web es fundamental para el progreso';
 
-function allItems(array) {
-    let link;
-    for (let i = 0; i < array.length; i++) {
-        link = array[0] + ", " + array[1] + ", " + array[2];
-    }
-    return link;
+function wordQuantity(array) {
+    let element = array.split(' ');
+    return element.length;
 }
 
-let link = allItems(array);
-alert (link);
+let quantity = wordQuantity(array);
+alert(`The phrase "${array}" has ${quantity} words.`);
